@@ -1,0 +1,5 @@
+#!/bin/sh
+case "$#" in
+  1) exec /usr/bin/python3 "$(dirname "$0")/chrome_agent.py" --native-host "$1" ;;
+  *) exit 1 ;;
+esac

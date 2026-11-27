@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Agent",
+  "version": "0.1.0",
+  "minimum_chrome_version": "118",
+  "description": "Let a local agent assist with a selected video submission tab.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "nativeMessaging",
+    "debugger"
+  ],
+  "action": {
+    "default_title": "Chrome Agent \u00b7 \u70b9\u51fb\u8fde\u63a5\u6216\u65ad\u5f00"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5hRX+F8QustJN7plQIKXng5epE2N6VnEXA4p/lkLVpKQHQKBv/lNhl8GRollbwCczpB2nft666a88ItgRhLW4fa+2v4MZDzdrcSQ5WutngefHWWYQNt4ern3fXjcfPLXoEbDKM4rszy7Dap4Ege4O9jQA44WsKCBU4VghSxeHlmO4nvhiAm38pCtSftV9vzPXidkASRLXE4B6VagtvTiskZ7haryBg72XHvMDCdJCHNoIuhhA7jGAVEo7k1NPL1N/qi69eWGFoWAqb8nVu6C5Vo0LLnHeUcStw4rnWxYseGTVkB9MQUwdUJc7B8B9V57CEjmsDlbhG79aLobWp69xwIDAQAB"
+}
